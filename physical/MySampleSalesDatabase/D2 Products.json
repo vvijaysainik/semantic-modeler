@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D2 Products",
+    "sourceTable" : "physicalTable:MySampleSalesDatabase.SAMP_PRODUCTS_D",
+    "overrideSourceCacheSetting" : false
+  }
+}

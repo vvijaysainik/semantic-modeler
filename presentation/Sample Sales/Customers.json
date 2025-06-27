@@ -1,0 +1,18 @@
+{
+  "presentationTable" : {
+    "name" : "Customers",
+    "presentationColumns" : [ {
+      "name" : "Cust Key",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Cust Key"
+    }, {
+      "name" : "Name",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Name"
+    }, {
+      "name" : "City",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.City"
+    }, {
+      "name" : "Country",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Country"
+    } ]
+  }
+}

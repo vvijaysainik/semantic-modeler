@@ -1,0 +1,17 @@
+{
+  "physicalTable" : {
+    "name" : "D3 Customers",
+    "sourceTable" : "physicalTable:MySampleSalesDatabase.SAMP_CUSTOMERS_D",
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:MySampleSalesDatabase.D4 Addresses",
+      "useJoinExpression" : true,
+      "joinExpression" : {
+        "expressionTemplate" : "%1 = %2",
+        "expressionObjects" : [ "physicalColumn:MySampleSalesDatabase.D3 Customers.ADDRESS_KEY", "physicalColumn:MySampleSalesDatabase.D4 Addresses.ADDRESS_KEY" ]
+      },
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
+  }
+}

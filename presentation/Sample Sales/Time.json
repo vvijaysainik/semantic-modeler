@@ -1,0 +1,24 @@
+{
+  "presentationTable" : {
+    "name" : "Time",
+    "presentationColumns" : [ {
+      "name" : "Per Name Half",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D1 Time.Per Name Half"
+    }, {
+      "name" : "Per Name Month",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D1 Time.Per Name Month"
+    }, {
+      "name" : "Per Name Qtr",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D1 Time.Per Name Qtr"
+    }, {
+      "name" : "Calendar Date",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D1 Time.Calendar Date"
+    }, {
+      "name" : "Per Name Week",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D1 Time.Per Name Week"
+    }, {
+      "name" : "Per Name Year",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D1 Time.Per Name Year"
+    } ]
+  }
+}
